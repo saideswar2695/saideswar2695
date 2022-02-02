@@ -1,0 +1,29 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1643810828401,1317,Access_Token,200,"Number of samples in transaction : 1, number of failing samples : 0",Access_Token_Generator 1-1,,true,,1268,1193,1,2,null,0,110,285
+1643810828504,1317,HTTP Request,200,OK,Access_Token_Generator 1-1,text,true,,1268,1193,1,2,https://perftest.recvue.com/api/v2.0/token,1317,0,285
+1643810828409,166,Launch,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 2-1,,true,,14061,3318,1,1,null,0,3010,95
+1643810829411,60,HTTP Request,200,OK,Thread Group 2-1,text,true,,11448,2101,1,2,https://perftest.recvue.com/pages/login.html;jsessionid=JCC6wrSD83Lwgi8yHQEHGAfcEt1oFcfimspk_UHKbMeNLvFQk4sb!1423473536:BpSBNr7u55CyCU8+,43,0,27
+1643810830474,7,HTTP Request_1,200,OK,Thread Group 2-1,,true,,486,1077,1,1,https://perftest.recvue.com/resources/IdmSettings.json,7,0,0
+1643810831484,99,HTTP Request_2,200,OK,Thread Group 2-1,,true,,2127,140,1,1,https://recvue.okta.com/api/v1/sessions/me,99,0,68
+1643810831586,3720,Login,403,"Number of samples in transaction : 11, number of failing samples : 3",Thread Group 2-1,,false,,82058,14149,1,1,null,0,11028,0
+1643810832587,49,16 /api/v1/authn,200,OK,Thread Group 2-1,,true,,2318,650,1,1,https://recvue.okta.com/api/v1/authn,49,0,0
+1643810833638,332,17 /api/v1/authn,200,OK,Thread Group 2-1,text,true,,2581,804,1,1,https://recvue.okta.com/api/v1/authn,332,0,0
+1643810834974,2216,HTTP Request,200,OK,Thread Group 2-1,text,true,,62161,2911,1,1,https://perftest.recvue.com/pages/index.xhtml,144,0,0
+1643810838200,52,46 /api/v1/sessions/me,200,OK,Thread Group 2-1,,true,,1879,816,1,1,https://recvue.okta.com/api/v1/sessions/me,52,0,0
+1643810839255,320,75 /settings/home,200,OK,Thread Group 2-1,text,true,,3326,1342,1,1,https://perftest.recvue.com/settings/home,320,0,0
+1643810840578,24,HTTP Request,200,OK,Thread Group 2-1,text,true,,503,1402,1,1,https://perftest.recvue.com/pages/index.xhtml,24,0,0
+1643810841604,161,89 /oauth2/v1/authorize,200,OK,Thread Group 2-1,text,true,,3836,1078,1,1,https://recvue.okta.com/oauth2/v1/authorize?client_id=0oa839dtwL8XoTvbF2p6&redirect_uri=https%3A%2F%2Fperftest.recvue.com&response_type=token&response_mode=okta_post_message&state=sFq0vrdxKKxYge8Or37SRj6cBzZyuHSHLqL5BwOof6XNwL15v86zKePv5J7MOWex&nonce=4tFQGJWqEg7KKeXNtwyfgGgIIBSvbLzvQBxMsXKVjgNeRIKX5bO1XtburGzBKVvL&prompt=none&scope=openid%20email,160,0,0
+1643810842766,170,90 /oauth2/v1/authorize,200,OK,Thread Group 2-1,text,true,,3829,1078,1,1,https://recvue.okta.com/oauth2/v1/authorize?client_id=0oa839dtwL8XoTvbF2p6&redirect_uri=https%3A%2F%2Fperftest.recvue.com&response_type=token&response_mode=okta_post_message&state=8EpbLZXHFCcLMedHUx5MKyRX3rd2JszIOoYT6Y7az2GZ9w4UwFLntvTWxlIaWMcw&nonce=ZXuKXyCdo1CqPNTxSD7JnMRn6lWd9cpeSdAgSwVi36nYZLbVvC8RoYaApykSUKPz&prompt=none&scope=openid%20email,169,0,0
+1643810843937,109,101 /api/v2.0/manage/events/notifications,403,Forbidden,Thread Group 2-1,text,false,,630,1391,1,1,https://perftest.recvue.com/api/v2.0/manage/events/notifications?sort=creationDate:DESC&size=30&page=1&readStatus=N,109,0,0
+1643810845047,178,102 /api/v2.0/workSpaces/dataGrid/OrderHome/headers,403,Forbidden,Thread Group 2-1,text,false,,365,1350,1,1,https://perftest.recvue.com/api/v2.0/workSpaces/dataGrid/OrderHome/headers,178,0,0
+1643810846226,109,103 /api/v2.0/user/favorites,403,Forbidden,Thread Group 2-1,text,false,,630,1327,1,1,https://perftest.recvue.com/api/v2.0/user/favorites,109,0,0
+1643810846336,263,Click_On_Settings,403,"Number of samples in transaction : 9, number of failing samples : 1",Thread Group 2-1,,false,,70755,13433,1,1,null,0,9009,0
+1643810847337,11,59 /settings/ico-elems.d455958d4c5121d46599.svg,200,OK,Thread Group 2-1,text,true,,1678,1382,1,1,https://perftest.recvue.com/settings/ico-elems.d455958d4c5121d46599.svg,11,0,0
+1643810848349,9,58 /settings/assets/prod/styles/fonts/montserrat-semibold.woff2,200,OK,Thread Group 2-1,text,true,,27284,1438,1,1,https://perftest.recvue.com/settings/assets/prod/styles/fonts/montserrat-semibold.woff2,7,0,0
+1643810849359,150,56 /api/v2.0/workSpaces,403,Forbidden,Thread Group 2-1,text,false,,365,1440,1,1,https://perftest.recvue.com/api/v2.0/workSpaces?pageName=OrderHome,150,0,0
+1643810850510,13,61 /settings/assets/prod/img/ico-add.svg,200,OK,Thread Group 2-1,text,true,,1424,1377,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-add.svg,13,0,0
+1643810851524,5,63 /settings/assets/prod/img/ico-search2.svg,200,OK,Thread Group 2-1,text,true,,1730,1381,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-search2.svg,5,0,0
+1643810852530,4,62 /settings/ico-expand.99ea94f6a0c5e674ed27.svg,200,OK,Thread Group 2-1,text,true,,2164,1383,1,1,https://perftest.recvue.com/settings/ico-expand.99ea94f6a0c5e674ed27.svg,4,0,0
+1643810853534,4,64 /settings/ico-filter.77f763f33e145c533260.svg,200,OK,Thread Group 2-1,text,true,,2315,1383,1,1,https://perftest.recvue.com/settings/ico-filter.77f763f33e145c533260.svg,4,0,0
+1643810854539,30,66 /pages/index.xhtml,200,OK,Thread Group 2-1,text,true,,503,1776,1,1,https://perftest.recvue.com/pages/index.xhtml,30,0,0
+1643810855570,37,67 /pages/index.xhtml,200,OK,Thread Group 2-1,text,true,,33292,1873,1,1,https://perftest.recvue.com/pages/index.xhtml,27,0,0
