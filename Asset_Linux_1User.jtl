@@ -1,0 +1,57 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1644479367175,1657,Access_Token,200,"Number of samples in transaction : 1, number of failing samples : 0",Access_Token_Generator 1-1,,true,,1268,1193,1,1,null,0,137,470
+1644479367294,1657,HTTP Request---SingleUser,200,OK,Access_Token_Generator 1-1,text,true,,1268,1193,1,1,https://perftest.recvue.com/api/v2.0/token,1657,0,470
+1644479387131,234,Launch,404,"Number of samples in transaction : 3, number of failing samples : 1",Asset_Attributes_Search 2-1,,false,,4256,2524,1,1,null,0,3009,113
+1644479388133,45,HTTP Request,404,Not Found,Asset_Attributes_Search 2-1,text,false,,1403,1100,1,1,https://perftest.recvue.com/,45,0,28
+1644479389181,9,HTTP Request_1,200,OK,Asset_Attributes_Search 2-1,,true,,486,1126,1,1,https://perftest.recvue.com/resources/IdmSettings.json,9,0,0
+1644479390192,180,HTTP Request_2,200,OK,Asset_Attributes_Search 2-1,,true,,2367,298,1,1,https://recvue.okta.com/api/v1/sessions/me,180,0,85
+1644479390375,5868,Login,200,"Number of samples in transaction : 11, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,83674,17053,1,1,null,0,11022,0
+1644479391375,44,16 /api/v1/authn,200,OK,Asset_Attributes_Search 2-1,,true,,2318,650,1,1,https://recvue.okta.com/api/v1/authn,44,0,0
+1644479392421,309,17 /api/v1/authn,200,OK,Asset_Attributes_Search 2-1,text,true,,2582,804,1,1,https://recvue.okta.com/api/v1/authn,309,0,0
+1644479393734,2157,HTTP Request,200,OK,Asset_Attributes_Search 2-1,text,true,,62559,2802,1,1,https://perftest.recvue.com/pages/index.xhtml,120,0,0
+1644479396898,56,46 /api/v1/sessions/me,200,OK,Asset_Attributes_Search 2-1,,true,,2081,1038,1,1,https://recvue.okta.com/api/v1/sessions/me,56,0,0
+1644479397955,650,75 /settings/home,200,OK,Asset_Attributes_Search 2-1,text,true,,3315,1342,1,1,https://perftest.recvue.com/settings/home,650,0,0
+1644479399606,29,HTTP Request,200,OK,Asset_Attributes_Search 2-1,text,true,,504,1403,1,1,https://perftest.recvue.com/pages/index.xhtml,29,0,0
+1644479400636,138,89 /oauth2/v1/authorize,200,OK,Asset_Attributes_Search 2-1,text,true,,4055,1300,1,1,https://recvue.okta.com/oauth2/v1/authorize?client_id=0oa839dtwL8XoTvbF2p6&redirect_uri=https%3A%2F%2Fperftest.recvue.com&response_type=token&response_mode=okta_post_message&state=sFq0vrdxKKxYge8Or37SRj6cBzZyuHSHLqL5BwOof6XNwL15v86zKePv5J7MOWex&nonce=4tFQGJWqEg7KKeXNtwyfgGgIIBSvbLzvQBxMsXKVjgNeRIKX5bO1XtburGzBKVvL&prompt=none&scope=openid%20email,138,0,0
+1644479401775,131,90 /oauth2/v1/authorize,200,OK,Asset_Attributes_Search 2-1,text,true,,4047,1300,1,1,https://recvue.okta.com/oauth2/v1/authorize?client_id=0oa839dtwL8XoTvbF2p6&redirect_uri=https%3A%2F%2Fperftest.recvue.com&response_type=token&response_mode=okta_post_message&state=8EpbLZXHFCcLMedHUx5MKyRX3rd2JszIOoYT6Y7az2GZ9w4UwFLntvTWxlIaWMcw&nonce=ZXuKXyCdo1CqPNTxSD7JnMRn6lWd9cpeSdAgSwVi36nYZLbVvC8RoYaApykSUKPz&prompt=none&scope=openid%20email,131,0,0
+1644479402909,1638,101 /api/v2.0/manage/events/notifications,200,OK,Asset_Attributes_Search 2-1,text,true,,467,2173,1,1,https://perftest.recvue.com/api/v2.0/manage/events/notifications?sort=creationDate:DESC&size=30&page=1&readStatus=N,1638,0,0
+1644479405548,245,102 /api/v2.0/workSpaces/dataGrid/OrderHome/headers,200,OK,Asset_Attributes_Search 2-1,text,true,,1277,2132,1,1,https://perftest.recvue.com/api/v2.0/workSpaces/dataGrid/OrderHome/headers,244,0,0
+1644479406794,471,103 /api/v2.0/user/favorites,200,OK,Asset_Attributes_Search 2-1,text,true,,469,2109,1,1,https://perftest.recvue.com/api/v2.0/user/favorites,471,0,0
+1644479407266,2165,Click_On_Settings,200,"Number of samples in transaction : 9, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,71700,14217,1,1,null,0,9012,0
+1644479408266,312,59 /settings/ico-elems.d455958d4c5121d46599.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1674,1382,1,1,https://perftest.recvue.com/settings/ico-elems.d455958d4c5121d46599.svg,312,0,0
+1644479409580,313,58 /settings/assets/prod/styles/fonts/montserrat-semibold.woff2,200,OK,Asset_Attributes_Search 2-1,text,true,,27280,1438,1,1,https://perftest.recvue.com/settings/assets/prod/styles/fonts/montserrat-semibold.woff2,312,0,0
+1644479410897,262,56 /api/v2.0/workSpaces,200,OK,Asset_Attributes_Search 2-1,text,true,,1328,2222,1,1,https://perftest.recvue.com/api/v2.0/workSpaces?pageName=OrderHome,262,0,0
+1644479412160,309,61 /settings/assets/prod/img/ico-add.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1422,1377,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-add.svg,309,0,0
+1644479413470,297,63 /settings/assets/prod/img/ico-search2.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1728,1381,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-search2.svg,297,0,0
+1644479414768,319,62 /settings/ico-expand.99ea94f6a0c5e674ed27.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,2160,1383,1,1,https://perftest.recvue.com/settings/ico-expand.99ea94f6a0c5e674ed27.svg,319,0,0
+1644479416088,293,64 /settings/ico-filter.77f763f33e145c533260.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,2311,1383,1,1,https://perftest.recvue.com/settings/ico-filter.77f763f33e145c533260.svg,292,0,0
+1644479417382,24,66 /pages/index.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,504,1777,1,1,https://perftest.recvue.com/pages/index.xhtml,24,0,0
+1644479418407,36,67 /pages/index.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,33293,1874,1,1,https://perftest.recvue.com/pages/index.xhtml,28,0,0
+1644479418444,3825,Slect_Asset_Attributes,200,"Number of samples in transaction : 13, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,225251,21037,1,1,null,0,13015,0
+1644479419445,20,69 /pages/index.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,408,1807,1,1,https://perftest.recvue.com/pages/index.xhtml,20,0,0
+1644479420466,98,71 /pages/setup/asset/assetAttribute.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,58752,1468,1,1,https://perftest.recvue.com/pages/setup/asset/assetAttribute.xhtml,95,0,0
+1644479421565,298,74 /settings/asset-attributes,200,OK,Asset_Attributes_Search 2-1,text,true,,3324,1454,1,1,https://perftest.recvue.com/settings/asset-attributes,298,0,0
+1644479422864,1264,85 /api/v2.0/translation/messages/bundle,200,OK,Asset_Attributes_Search 2-1,text,true,,140627,2208,1,1,https://perftest.recvue.com/api/v2.0/translation/messages/bundle,1125,0,0
+1644479425129,306,87 /settings/ns-checkbox.d1df7702e34258b6f858.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1626,1384,1,1,https://perftest.recvue.com/settings/ns-checkbox.d1df7702e34258b6f858.svg,306,0,0
+1644479426436,289,93 /settings/ico-csv.4bb1bc89b8c6c6bdb7ce.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,6010,1380,1,1,https://perftest.recvue.com/settings/ico-csv.4bb1bc89b8c6c6bdb7ce.svg,289,0,0
+1644479427728,6,94 /settings/ico-expand.99ea94f6a0c5e674ed27.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,2162,1383,1,1,https://perftest.recvue.com/settings/ico-expand.99ea94f6a0c5e674ed27.svg,6,0,0
+1644479428735,296,92 /settings/ico-download.00b7acc952da4d05852c.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1657,1385,1,1,https://perftest.recvue.com/settings/ico-download.00b7acc952da4d05852c.svg,296,0,0
+1644479430032,295,95 /settings/ico-xls.25b172c2daccfdaaf4d6.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,4852,1380,1,1,https://perftest.recvue.com/settings/ico-xls.25b172c2daccfdaaf4d6.svg,295,0,0
+1644479431328,252,90 /api/v2.0/workSpaces/dataGrid/tableAssetAttribute/headers,200,OK,Asset_Attributes_Search 2-1,text,true,,1066,2228,1,1,https://perftest.recvue.com/api/v2.0/workSpaces/dataGrid/tableAssetAttribute/headers,251,0,0
+1644479432580,690,91 /api/v2.0/user/attributes,200,OK,Asset_Attributes_Search 2-1,text,true,,724,2196,1,1,https://perftest.recvue.com/api/v2.0/user/attributes,690,0,0
+1644479434271,6,97 /settings/assets/prod/img/ico-search2.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1730,1381,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-search2.svg,6,0,0
+1644479435278,5,96 /settings/ico-filter.77f763f33e145c533260.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,2313,1383,1,1,https://perftest.recvue.com/settings/ico-filter.77f763f33e145c533260.svg,5,0,0
+1644479435284,1320,Search_Attribute,200,"Number of samples in transaction : 4, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,5545,6420,1,1,null,0,4003,0
+1644479436285,420,100 /api/v2.0/workSpaces/dataGrid/tableAssetAttribute,200,OK,Asset_Attributes_Search 2-1,text,true,,911,2269,1,1,https://perftest.recvue.com/api/v2.0/workSpaces/dataGrid/tableAssetAttribute?search=Colour01&size=10&page=1&filterApplyFlag=N,419,0,0
+1644479437705,298,101 /settings/assets/prod/img/ico-edit2.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1308,1380,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-edit2.svg,298,0,0
+1644479439004,290,102 /settings/ns-checkbox-white.e30a0c265ceef7578de3.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1624,1390,1,1,https://perftest.recvue.com/settings/ns-checkbox-white.e30a0c265ceef7578de3.svg,290,0,0
+1644479440295,312,103 /settings/assets/prod/img/ico-remove.svg,200,OK,Asset_Attributes_Search 2-1,text,true,,1702,1381,1,1,https://perftest.recvue.com/settings/assets/prod/img/ico-remove.svg,312,0,0
+1644479440607,73,Logout,200,"Number of samples in transaction : 3, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,12164,6099,1,1,null,0,3004,0
+1644479441608,24,109 /pages/index.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,504,1704,1,1,https://perftest.recvue.com/pages/index.xhtml,24,0,0
+1644479442633,25,110 /pages/index.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,504,1703,1,1,https://perftest.recvue.com/pages/index.xhtml,25,0,0
+1644479443659,24,112 /pages/logout.xhtml,200,OK,Asset_Attributes_Search 2-1,text,true,,11156,2692,1,1,https://perftest.recvue.com/pages/login.html,17,0,0
+1644479443685,154,Launch,200,"Number of samples in transaction : 3, number of failing samples : 0",Asset_Attributes_Search 2-1,,true,,14099,3950,1,1,null,0,3006,82
+1644479444687,38,HTTP Request,200,OK,Asset_Attributes_Search 2-1,text,true,,11448,2417,1,1,https://perftest.recvue.com/pages/login.html;jsessionid=gizinPbr7R18EYuusPM9snCGCa438_d7kLYulFd4dGC47xHYKfYd!1423473536:BpSBNr7u55CyCU8+,31,0,23
+1644479445726,7,HTTP Request_1,200,OK,Asset_Attributes_Search 2-1,,true,,486,1235,1,1,https://perftest.recvue.com/resources/IdmSettings.json,7,0,0
+1644479446734,109,HTTP Request_2,200,OK,Asset_Attributes_Search 2-1,,true,,2165,298,1,1,https://recvue.okta.com/api/v1/sessions/me,109,0,59
+1644479446846,0,Login,,,Asset_Attributes_Search 2-1,,true,,0,0,1,1,null,0,0,0
